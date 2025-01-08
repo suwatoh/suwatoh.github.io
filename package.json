@@ -1,0 +1,17 @@
+{
+	"name": "suwatoh.github.io",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "npx tailwindcss -i ./src/main.css -o ./dist/main.css --watch",
+		"copy": "cp ./src/*.html ./*.html"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.4.17"
+	}
+}

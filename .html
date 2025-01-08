@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth scroll-pt-[6rem]">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/main.css" rel="stylesheet">
+  <title>Suwatoh's Portfolio</title>
+</head>
+
+<body class="bg-lime-100">
+  <header class="sticky top-0 left-0 w-full bg-green-500 p-4 text-white font-bold">
+    <nav class="flex justify-between container mx-auto items-center">
+      <h1 class="text-2xl">Suwatoh's Portfolio</h1>
+      <div class="space-x-4">
+        <a href="#profile" class="header-link">Profile</a>
+        <a href="#skill" class="header-link">Skill</a>
+        <a href="#works" class="header-link">Works</a>
+        <a href="#contact" class="header-link">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 自己紹介 -->
+    <section id="profile" class="w-full my-10">
+      <div class="container mx-auto">
+        <h2 class="section-header text-blue-600">Profile</h2>
+        <div class="flex flex-col items-center gap-1">
+          <p class="text-2xl">Suwatoh（すわとう）</p>
+          <div class="flex items-center mb-4">
+            <svg class="octicon octicon-location" viewBox="0 0 16 16" version="1.1" width="16" height="16"
+              aria-hidden="true">
+              <path
+                d="m12.596 11.596-3.535 3.536a1.5 1.5 0 0 1-2.122 0l-3.535-3.536a6.5 6.5 0 1 1 9.192-9.193 6.5 6.5 0 0 1 0 9.193Zm-1.06-8.132v-.001a5 5 0 1 0-7.072 7.072L8 14.07l3.536-3.534a5 5 0 0 0 0-7.072ZM8 9a2 2 0 1 1-.001-3.999A2 2 0 0 1 8 9Z">
+              </path>
+            </svg>
+            <span>神奈川県, 日本</span>
+          </div>
+          <p>北海道出身。</p>
+          <p>某国立大学法学部を卒業後、公務員に就職。</p>
+          <p>16年目で退職。</p>
+          <p>3Dモデリングに関心を持ち、Blenderを使っていくつか作品を制作し、配布する。</p>
+          <p>Blenderのアドオンを開発するために、Pythonを学ぶ。</p>
+          <p>現在はプログラミングのほうに関心が移り、フリーランスプログラマーとして活動中。</p>
+        </div>
+    </section>
+
+    <!-- スキル -->
+    <section id="skill" class="w-full my-10">
+      <div class="container mx-auto">
+        <h2 class="section-header text-orange-600">Skill</h2>
+        <div class="flex justify-center mt-8">
+          <div class="flex space-x-32">
+            <table class="table-auto border-collapse">
+              <caption class="text-xl font-bold">プログラミング</caption>
+              <thead>
+                <tr>
+                  <th class="cell-black">プログラミング言語</th>
+                  <th class="cell-black">年数</th>
+                  <th class="cell-black">レベル</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="cell-gray">Python</td>
+                  <td class="cell-gray">8年</td>
+                  <td class="cell-gray">ハイレベル</td>
+                </tr>
+                <tr>
+                  <td class="cell-gray">JavaScript</td>
+                  <td class="cell-gray">6年</td>
+                  <td class="cell-gray">ノーマル</td>
+                </tr>
+              </tbody>
+            </table>
+            <table>
+              <caption class="text-xl font-bold">資格</caption>
+              <thead>
+                <tr>
+                  <th class="cell-black">資格名</th>
+                  <th class="cell-black">取得年月</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="cell-gray">Python 3 エンジニア認定基礎試験</td>
+                  <td class="cell-gray">2023/09</td>
+                </tr>
+                <tr>
+                  <td class="cell-gray">Python 3 エンジニア認定実践試験</td>
+                  <td class="cell-gray">2023/12</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- プロジェクト -->
+    <section id="works" class="w-full my-10">
+      <div class="container mx-auto">
+        <h2 class="section-header text-violet-600">Works</h2>
+      </div>
+      <div class="flex justify-center space-x-4 mt-8">
+        <!-- Python 学習ノート -->
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-sky-100">
+          <img class="w-full" src="/img/colab.png" alt="Colab">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Python 学習ノート</div>
+            <p class="text-gray-700 text-base">
+              Google ColabにてPythonやプログラミング全般に関する記事を書き溜めていました。
+            </p>
+          </div>
+          <div class="px-6 pt-4 mb-4">
+            <a class="rounded-full py-1 px-4 bg-black text-white" href="/Python-learning.html">Python Learning</a>
+          </div>
+        </div>
+
+        <!-- GitHub -->
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-sky-100">
+          <img class="w-full" src="/img/GitHub.png" alt="GitHub">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">GitHub</div>
+            <p class="text-gray-700 text-base">
+              リポジトリはまだ少ないですが、これから増やしていこうと思っています。
+            </p>
+          </div>
+          <div class="px-6 pt-4 mb-4">
+            <a class="rounded-full py-1 px-4 bg-black text-white" href="https://github.com/suwatoh">GitHub</a>
+          </div>
+        </div>
+
+        <!-- Blender -->
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-sky-100">
+          <img class="w-full" src="/img/blender.png" alt="Blender">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Blender アドオン</div>
+            <p class="text-gray-700 text-base">
+              Blender 2.7用のMMDモデルエクスポーターやツール類を配布していました。これらは最新のBlenderでは動作しません。
+            </p>
+          </div>
+          <div class="px-6 pt-4 mb-4">
+            <a class="rounded-full py-1 px-4 bg-black text-white"
+              href="https://ux.getuploader.com/suwatoh_mmd1/">uploader.jp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 連絡 -->
+    <section id="contact" class="w-full my-10">
+      <div class="container mx-auto">
+        <h2 class="section-header text-red-600">Contact</h2>
+      </div>
+      <div class="flex justify-center space-x-6 mt-8 mb-36">
+        <div>
+          <a href="mailto:ts.subst@gmail.com?subject=お問い合わせ(Github Pages)"><img src="/img/mail.png" alt="mail"></a>
+        </div>
+        <div>
+          <a href="https://x.com/suwatoh"><img src="/img/x.png" alt="X"></a>
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px" height="53px"
+            viewBox="0 0 60 53" version="1.1">
+            <a href="https://bsky.app/profile/suwatoh.bsky.social">
+              <g id="surface1">
+                <path style=" stroke:none;fill-rule:nonzero;fill:rgb(6.666667%,52.156866%,99.607843%);fill-opacity:1;"
+                  d="M 13.570312 4.402344 C 20.222656 9.394531 27.375 19.515625 30 24.949219 C 32.625 19.515625 39.777344 9.394531 46.429688 4.402344 C 51.226562 0.800781 59 -1.984375 59 6.882812 C 59 8.652344 57.984375 21.761719 57.390625 23.890625 C 55.320312 31.289062 47.773438 33.175781 41.0625 32.03125 C 52.792969 34.027344 55.777344 40.640625 49.332031 47.253906 C 37.09375 59.8125 31.742188 44.105469 30.371094 40.078125 C 30.121094 39.339844 30 38.996094 30 39.289062 C 30 38.996094 29.878906 39.339844 29.628906 40.078125 C 28.257812 44.105469 22.90625 59.8125 10.667969 47.253906 C 4.222656 40.640625 7.207031 34.027344 18.9375 32.03125 C 12.226562 33.175781 4.679688 31.289062 2.609375 23.890625 C 2.015625 21.761719 1 8.652344 1 6.882812 C 1 -1.984375 8.773438 0.800781 13.570312 4.402344 Z M 13.570312 4.402344 " />
+              </g>
+            </a>
+          </svg>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
