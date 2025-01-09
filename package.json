@@ -6,7 +6,8 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "npx tailwindcss -i ./src/main.css -o ./dist/main.css --watch",
-		"copy": "cp ./src/*.html ./*.html"
+		"build2": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
+		"copy": "cp src/*.html ."
 	},
 	"keywords": [],
 	"author": "",

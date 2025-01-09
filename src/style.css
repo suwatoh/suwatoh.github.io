@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+._box {
+    @apply flex border-4 my-2 rounded-xl border-gray-500
+}
+
+._t-link {
+    @apply absolute top-0 left-0 h-full w-full
+}
+
+._title-box1 {
+    @apply relative w-[25rem] rounded-s-xl flex items-center p-2 bg-sky-100
+}
+
+._title-box2 {
+    @apply relative w-[25rem] rounded-s-xl flex items-center p-2 bg-red-100
+}
+
+._contents {
+    @apply w-full rounded-e-xl flex items-center p-2 truncate whitespace-normal border-s-2 border-gray-500 bg-white
+}
