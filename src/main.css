@@ -2,18 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+ Made by Favorite Pattern CSS Generator
+ https://s-moon.net/pattern/
+ */
+.bg-stripe {
+	background-image: repeating-linear-gradient(
+		135deg,
+		#f7f7f7 0px 15px,
+		#ffffff 15px 30px
+	);
+}
+
 .header-link {
-    @apply hover:text-yellow-200 transition-all duration-300;
+	@apply hover:text-yellow-200 transition-all duration-300;
 }
 
 .section-header {
-    @apply text-4xl font-bold italic mb-4 text-center
+	@apply text-4xl font-bold italic mb-4 text-center;
 }
 
 .cell-black {
-    @apply px-4 py-2 border-b border-black
+	@apply px-4 py-2 border-b border-black;
 }
 
 .cell-gray {
-    @apply px-4 py-2 border-b border-gray-400
+	@apply px-4 py-2 border-b border-gray-400;
 }
