@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./dist/main.css" rel="stylesheet">
+  <link href="/dist/main.css" rel="stylesheet">
   <title>Suwatoh's Portfolio</title>
 </head>
 
@@ -13,15 +13,66 @@
     <nav class="flex justify-between container mx-auto items-center">
       <h1 class="text-2xl">Suwatoh's Portfolio</h1>
       <div class="space-x-4">
+        <a href="#works" class="header-link">Works</a>
         <a href="#profile" class="header-link">Profile</a>
         <a href="#skill" class="header-link">Skill</a>
-        <a href="#works" class="header-link">Works</a>
         <a href="#contact" class="header-link">Contact</a>
       </div>
     </nav>
   </header>
 
   <main>
+    <!-- プロジェクト -->
+    <section id="works" class="w-full mt-10 mb-28">
+      <div class="container mx-auto">
+        <h2 class="section-header text-violet-600">Works</h2>
+      </div>
+      <div class="flex justify-center space-x-4 mt-8">
+        <!-- Python 学習ノート -->
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-sky-100 border border-1">
+          <img class="w-full" src="/img/colab.png" alt="Colab">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Python 学習ノート</div>
+            <p class="text-gray-700 text-base">
+              Google ColabにてPythonやプログラミング全般に関する記事を書き溜めていました。
+            </p>
+          </div>
+          <div class="px-6 pt-4 mb-4">
+            <a class="rounded-full py-1 px-4 bg-black text-white" href="/python-learning.html">Python Learning</a>
+          </div>
+        </div>
+
+        <!-- GitHub -->
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-sky-100 border border-1">
+          <img class="w-full" src="/img/GitHub.png" alt="GitHub">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">GitHub</div>
+            <p class="text-gray-700 text-base">
+              リポジトリはまだ少ないですが、これから増やしていこうと思っています。
+            </p>
+          </div>
+          <div class="px-6 pt-4 mb-4">
+            <a class="rounded-full py-1 px-4 bg-black text-white" href="https://github.com/suwatoh">GitHub</a>
+          </div>
+        </div>
+
+        <!-- Blender -->
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-sky-100 border border-1">
+          <img class="w-full" src="/img/blender.png" alt="Blender">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Blender アドオン</div>
+            <p class="text-gray-700 text-base">
+              Blender 2.7用のMMDモデルエクスポーターやツール類を配布していました。これらは最新のBlenderでは動作しません。
+            </p>
+          </div>
+          <div class="px-6 pt-4 mb-4">
+            <a class="rounded-full py-1 px-4 bg-black text-white"
+              href="https://ux.getuploader.com/suwatoh_mmd1/">uploader.jp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- 自己紹介 -->
     <section id="profile" class="w-full mt-10 mb-28">
       <div class="container mx-auto">
@@ -93,57 +144,6 @@
                 </tr>
               </tbody>
             </table>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- プロジェクト -->
-    <section id="works" class="w-full mt-10 mb-28">
-      <div class="container mx-auto">
-        <h2 class="section-header text-violet-600">Works</h2>
-      </div>
-      <div class="flex justify-center space-x-4 mt-8">
-        <!-- Python 学習ノート -->
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-sky-100 border border-1">
-          <img class="w-full" src="/img/colab.png" alt="Colab">
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Python 学習ノート</div>
-            <p class="text-gray-700 text-base">
-              Google ColabにてPythonやプログラミング全般に関する記事を書き溜めていました。
-            </p>
-          </div>
-          <div class="px-6 pt-4 mb-4">
-            <a class="rounded-full py-1 px-4 bg-black text-white" href="/python-learning.html">Python Learning</a>
-          </div>
-        </div>
-
-        <!-- GitHub -->
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-sky-100 border border-1">
-          <img class="w-full" src="/img/GitHub.png" alt="GitHub">
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">GitHub</div>
-            <p class="text-gray-700 text-base">
-              リポジトリはまだ少ないですが、これから増やしていこうと思っています。
-            </p>
-          </div>
-          <div class="px-6 pt-4 mb-4">
-            <a class="rounded-full py-1 px-4 bg-black text-white" href="https://github.com/suwatoh">GitHub</a>
-          </div>
-        </div>
-
-        <!-- Blender -->
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-sky-100 border border-1">
-          <img class="w-full" src="/img/blender.png" alt="Blender">
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Blender アドオン</div>
-            <p class="text-gray-700 text-base">
-              Blender 2.7用のMMDモデルエクスポーターやツール類を配布していました。これらは最新のBlenderでは動作しません。
-            </p>
-          </div>
-          <div class="px-6 pt-4 mb-4">
-            <a class="rounded-full py-1 px-4 bg-black text-white"
-              href="https://ux.getuploader.com/suwatoh_mmd1/">uploader.jp</a>
           </div>
         </div>
       </div>
